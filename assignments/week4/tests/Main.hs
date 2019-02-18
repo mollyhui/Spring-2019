@@ -21,9 +21,9 @@ module Main where
           unsetEnv "TASTY_QUICKCHECK_MAX_SIZE"
   
   allTests = testGroup "all tests" [
-        mapTest,
-        langTest,
-        higherOrderTest
+        --mapTest,
+        --langTest,
+        --higherOrderTest
         
       ]
   
